@@ -150,7 +150,7 @@
 
         window.addEventListener('load', async () => {
             Web3_Nft_Login_init();
-             let validDomains=["127.0.0.1:5500"]
+             let validDomains=["127.0.0.1:5500","www.know-about-blockchain.com"]
              let hostDomain=window.location.host
              console.log("host",hostDomain)
              if(validDomains.includes(hostDomain)){
